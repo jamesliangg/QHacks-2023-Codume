@@ -46,10 +46,21 @@
 
 textarea {
     resize: none;
+    font-family: 'Comfortaa';
 }
 
 .col-1 h1 {
     padding-top: 1em;
     margin: auto;
     width: 85%;
+}
+
+.upload_div {
+    /* margin: auto; */
+    margin-left: 7.5%;
+    margin-top: 0.5em;
+    width: 30%;
+    height: 3em;
+    background-color: #cb808b;
+    border-radius: 10px;
 }
