@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Resume Builder</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/index.css') }}">
+        <link href='https://fonts.googleapis.com/css?family=DM Serif Display' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+    </head>
+    <body>
+        <div class="header_div"></div>
+        <div class="split_container">
+            <div class="col-1">
+                <h1>Job Description</h1>
+                <div class="job_div">
+                    <textarea id="job_description" name="jobDesc"></textarea>
+                </div>
+            </div>
+            <div class="col-2">
+              <h1>Templates</h1>
+            </div>
+        </div>
+        <!-- <p>Hello Resume Builders {{data}}</p> -->
+    </body>
+</html>
