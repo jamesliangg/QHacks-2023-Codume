@@ -116,11 +116,9 @@ def read_input(f):
                         #line = f.readline().rstrip()
                         flags["flag8"] = False
 
-
-
-
-experiences = open("experiences.txt",'r')
-read_input(experiences)
-print (resumeDict)
-#print("The list of languages you need for your resume is listed below: ")
-#print(find_keywords_in_string(languages, jobDescription))
+def writeExperiences():
+    experiences = open("static/files/experiences.txt",'r')
+    read_input(experiences)
+    print (resumeDict)
+    #print("The list of languages you need for your resume is listed below: ")
+    #print(find_keywords_in_string(languages, jobDescription))
