@@ -116,3 +116,25 @@ input[type=radio]:checked + label>img {
     border: 1px solid #fff;
     box-shadow: 0 0 3px 3px #1a364e;
 }
+
+.download_div {
+    /* margin: auto; */
+    margin-left: 7.5%;
+    margin-top: 0.5em;
+    width: 30%;
+    height: 3em;
+    background-color: #cb808b;
+    border-radius: 10px;
+}
+
+.download_button {
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    border: 0;
+    background: transparent;
+    padding: 1em;
+    text-align: left;
+    box-sizing: border-box;
+    font-family: 'Comfortaa';
+}

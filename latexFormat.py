@@ -40,3 +40,4 @@ tools = ""):
     text_file = open("resume.tex", "wt")
     n = text_file.write(str2)
     text_file.close()
+    return str2

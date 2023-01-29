@@ -1,14 +1,25 @@
-from flask import Flask, request, render_template
+from flask import Flask, request, render_template, Response
 from main import *
 from latexFormat import *
 
 app = Flask(__name__)
 sampleData = ['']
+texData = ''
 
-@app.route("/")
+@app.route("/", methods = ['GET','POST'])
 def homePage():
-    writeExperiences()
     return render_template("index.html")
+
+@app.route("/getPlotCSV")
+def getPlotCSV():
+    writeExperiences()
+    texData = writeResume()
+    # print(texData)
+    return Response(
+        texData,
+        mimetype="text/tex",
+        headers={"Content-disposition":
+                 "attachment; filename=resume.tex"})
 
 # @app.route("/", methods = ['GET','POST'])
 # def homePage():

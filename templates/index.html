@@ -16,10 +16,14 @@
                 </div>
                 <h1>Experiences</h1>
                 <div class="upload_div">
-                    <!-- <form method ="POST" enctype="multipart/form-data"> -->
+                    <!-- <form method ="POST"> -->
                         <input type="file" id="file_input" class="file_upload" accept=".txt" name="file_input">
                         <!-- <button type="submit">Submit</button> -->
                     <!-- </form> -->
+                </div>
+                <br>
+                <div class="download_div">
+                    <a class="download_button" href="{{url_for('getPlotCSV')}}">Download</a>
                 </div>
             </div>
             <div class="col-2">
