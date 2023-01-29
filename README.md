@@ -1,6 +1,7 @@
 # QHacks 2023 Codume
 ## Instructions
 `. venv/bin/activate`
+<br>
 `flask --app index run`
 
 Might need to pip install some dependencies
