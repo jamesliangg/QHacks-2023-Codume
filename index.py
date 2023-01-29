@@ -12,8 +12,8 @@ def homePage():
 
 @app.route("/getPlotCSV")
 def getPlotCSV():
-    writeExperiences()
-    texData = writeResume()
+    experienceArray = writeExperiences()
+    texData = writeResume('Canada',' ',' ',' ',experienceArray['name'],experienceArray['Summary'],experienceArray['Experience #1'][5],experienceArray['Experience #1'][4],'',' ',experienceArray['Experience #1'][0],' ',' ','','',' ',experienceArray['Experience #2'][0],' ',' ',experienceArray['Edcuation'],'','','','','','',experienceArray['email'],experienceArray['Phone'],experienceArray['Programming Languages'],'','','')
     # print(texData)
     return Response(
         texData,

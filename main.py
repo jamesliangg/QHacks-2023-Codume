@@ -232,9 +232,10 @@ def print_dict(d):
     for key, value in d.items():
         print(key,':',value,)
 
-experiences = open("experiences.txt",'r')
-read_input(experiences)
-print_dict(resumeDict)
-print(resumeDict.keys())
-#print("The list of languages you need for your resume is listed below: ")
-#print(find_keywords_in_string(languages, jobDescription))
+def writeExperiences():
+    experiences = open("static/files/experiences.txt",'r')
+    read_input(experiences)
+    print (resumeDict)
+    return resumeDict
+    #print("The list of languages you need for your resume is listed below: ")
+    #print(find_keywords_in_string(languages, jobDescription))

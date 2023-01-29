@@ -1,11 +1,11 @@
 Name: John Doe
 
 Contact Information:
-Email: johndoe@email.com
-Phone: 555-555-5555
+Email : johndoe@email.com
+phone: 555-555-5555
 LinkedIn: linkedin.com/in/johndoe
 
-Summary: Experienced software engineer with 5+ years of experience in developing and maintaining software applications. Proficient in various programming languages, including C++, Java, and Python. Strong understanding of software development methodologies and experience working in agile environments. Committed to delivering high-quality software on time and within budget.
+goal: Experienced software engineer with 5+ years of experience in developing and maintaining software applications. Proficient in various programming languages, including C++, Java, and Python. Strong understanding of software development methodologies and experience working in agile environments. Committed to delivering high-quality software on time and within budget.
 
 Education: Bachelor of Science in Computer Science, XYZ University, Graduated May 2015
 Master of Science in Computer Science, ABC University, Graduated May 2018
@@ -25,9 +25,10 @@ Developed and maintained several software applications using C++ and Java
 Implemented new features and functionality based on customer requirements
 Collaborated with cross-functional teams to deliver high-quality software on time
 Optimized and refactored code to improve performance and scalability
-Software Developer, GHI Corp. (May 2015 - May 2018)
+Software Developer, GHI Corp.
+(May 2015 - May 2018)
 
-Experience #2:
+work Experience #2:
 Worked on full-stack web development projects using JavaScript and Node.js
 Built and maintained several RESTful APIs
 Worked closely with the design team to implement responsive and user-friendly UI
@@ -35,13 +36,19 @@ Participated in code reviews and ensured adherence to best practices
 
 Projects:
 
+Project #1:
 Project Name: XYZ Application
 Description: Developed a software application for XYZ company using C++. The application was designed to automate several business processes and improve productivity.
 Technologies: C++, Windows, Visual Studio
 
+Project #2
 Project Name: ABC Web App
 Description: Built a web application for ABC company using React and Node.js. The application was designed to improve customer engagement and increase sales.
 Technologies: React, Node.js, MongoDB, Git
+
+Project #3:
+hello
+
 Certifications:
 
 Certified Scrum Master (CSM)
@@ -51,6 +58,8 @@ Languages:
 English (native)
 Spanish (conversational)
 References available upon request.
+
+
 
 
 
